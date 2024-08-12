@@ -8,15 +8,6 @@ const nextConfig = {
 
 		return config;
 	},
-	async redirects() {
-		return [
-			{
-				source: "/((?!^$|sitemap\\.xml).+)", // Match all paths except the root
-				destination: "/", // Redirect to the root
-				permanent: true, // Use permanent redirect (301)
-			},
-		];
-	},
 };
 
 export default nextConfig;
