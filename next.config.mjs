@@ -11,7 +11,7 @@ const nextConfig = {
 	async redirects() {
 		return [
 			{
-				source: "/((?!^$).+)", // Match all paths except the root
+				source: "/((?!^$|sitemap\\.xml).+)", // Match all paths except the root
 				destination: "/", // Redirect to the root
 				permanent: true, // Use permanent redirect (301)
 			},
