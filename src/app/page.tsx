@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-center p-24">
-			<div className="max-w-lg animate-rollOutLeftAndDown" id="typewriter">
+		<main className="flex min-h-screen flex-col items-center justify-center p-8 sm:p-24">
+			<div className="max-w-lg animate-rollOutLeftAndDown absolute" id="typewriter">
 				<h1 className="text-4xl font-bold overflow-hidden border-r-4 border-black dark:border-white whitespace-nowrap animate-typewriter inline-block">
 					Magnus Byrkjeland<span className="animate-blink">|</span>
 				</h1>
@@ -19,7 +19,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className="max-w-lg animate-rollInLeftAndUp opacity-0"
+				className="max-w-lg animate-rollInLeftAndUp opacity-0 absolute"
 				id="main-content"
 			>
 				<h2 className="text-3xl font-bold">Information coming...</h2>
