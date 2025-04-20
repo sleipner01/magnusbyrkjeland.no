@@ -53,6 +53,10 @@ const config: Config = {
 					"40%": { transform: "translateY(0)", opacity: "1" },
 					"100%": { transform: "translateY(0)", opacity: "1" },
 				},
+				fadeIn: {
+					"0%": { opacity: "0" },
+					"100%": { opacity: "0.6" },
+				},
 			},
 			animation: {
 				typewriter: "typewriter 1s steps(14) 1s 1 normal both",
@@ -61,6 +65,7 @@ const config: Config = {
 				slideInBottomDelayed: "slideInBottomDelayed 1s ease-in-out forwards 6s",
 				rollOutLeftAndDown: "rollOutLeftAndDown .6s ease-in-out forwards 8s",
 				rollInLeftAndUp: "rollInLeftAndUp .6s ease-in-out forwards 8s",
+				fadeIn: "fadeIn 1s ease-in-out forwards 9s",
 			},
 		},
 	},

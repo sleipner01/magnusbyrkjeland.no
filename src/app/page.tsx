@@ -22,33 +22,40 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className="max-w-lg animate-rollInLeftAndUp opacity-0 absolute"
+				className="max-w-lg animate-rollInLeftAndUp opacity-0 absolute px-4"
 				id="main-content"
 			>
-				<h2 className="text-3xl font-bold">👋🏽 Hello there!</h2>
+				<h2 className="text-4xl font-bold">👋🏽 Hello there!</h2>
 				<div className="mt-4">
 					<p>
 						I&apos;ll be brutally honest. My Github and Linkedin will always be
 						more informative than this website.
 					</p>
 					<p>If you want to stalk me, have a look below:</p>
-					<div className="flex gap-4 mt-6">
+					<div className="flex gap-4 mt-6 justify-center sm:justify-start">
 						<Link
 							href="https://github.magnusbyrkjeland.no"
 							target="_blank"
-							className="fill-[currentColor] hover:fill-[#8945C5]"
+							className="fill-[currentColor] hover:fill-[#8945C5] transition-colors duration-100 ease-out"
 						>
 							<GithubIcon className="w-12 h-12" />
 						</Link>
 						<Link
 							href="https://linkedin.magnusbyrkjeland.no"
 							target="_blank"
-							className="fill-[currentColor] hover:fill-[#0072b1]"
+							className="fill-[currentColor] hover:fill-[#0072b1] transition-colors duration-100 ease-out"
 						>
 							<LinkedInIcon className="w-12 h-12" />
 						</Link>
 					</div>
 				</div>
+			</div>
+			{/* Wrapping div to prevent overflow */}
+			<div className="absolute w-full h-full overflow-hidden -z-10">
+				<div
+					className="absolute w-[80%] h-[80%] opacity-0 animate-fadeIn bg-[url('/images/light-icon.svg')] dark:bg-[url('/images/dark-icon.svg')] bg-no-repeat bg-[right_bottom] bg-contain rotate-6 -right-10 -bottom-16"
+					id="coffee-motive"
+				></div>
 			</div>
 		</main>
 	);
