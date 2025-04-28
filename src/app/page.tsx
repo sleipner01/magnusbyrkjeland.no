@@ -37,6 +37,7 @@ export default function Home() {
 							href="https://github.magnusbyrkjeland.no"
 							target="_blank"
 							className="fill-[currentColor] hover:fill-[#8945C5] transition-colors duration-100 ease-out"
+							aria-label="Github"
 						>
 							<GithubIcon className="w-12 h-12" />
 						</Link>
@@ -44,6 +45,7 @@ export default function Home() {
 							href="https://linkedin.magnusbyrkjeland.no"
 							target="_blank"
 							className="fill-[currentColor] hover:fill-[#0072b1] transition-colors duration-100 ease-out"
+							aria-label="LinkedIn"
 						>
 							<LinkedInIcon className="w-12 h-12" />
 						</Link>
