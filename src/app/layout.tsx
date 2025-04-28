@@ -4,7 +4,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import iconLight from "@/../public/images/light-icon.png";
 import iconDark from "@/../public/images/dark-icon.png";
-import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
