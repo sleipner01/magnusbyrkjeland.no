@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://magnusbyrkjeland.com/sitemap.xml
