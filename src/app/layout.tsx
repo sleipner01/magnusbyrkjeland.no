@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 		creator: "Magnus Byrkjeland",
 		robots: "index, follow",
 		keywords: "portfolio, website, byrkj",
-		openGraph: {},
+		metadataBase: new URL("https://magnusbyrkjeland.no"),
 		icons: [
 			{
 				media: "(prefers-color-scheme: light)",
