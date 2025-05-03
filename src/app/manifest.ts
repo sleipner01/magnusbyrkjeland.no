@@ -7,8 +7,6 @@ export default function manifest(): MetadataRoute.Manifest {
 		description: "Magnus Byrkjeland · Developer",
 		start_url: "/",
 		display: "standalone",
-		background_color: "#fff",
-		theme_color: "#fff",
 		icons: [
 			{
 				src: "/icons/android-chrome-192x192.png",
