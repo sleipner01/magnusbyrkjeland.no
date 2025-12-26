@@ -55,7 +55,7 @@ export default function Home() {
 			{/* Wrapping div to prevent overflow */}
 			<div className="absolute w-full h-full overflow-hidden -z-10">
 				<div
-					className="absolute w-[80%] h-[80%] opacity-0 animate-fadeIn bg-[url('/icons/light-icon.svg')] dark:bg-[url('/icons/dark-icon.svg')] bg-no-repeat bg-[right_bottom] bg-contain rotate-6 -right-10 -bottom-16"
+					className="absolute w-[80%] h-[80%] opacity-0 animate-fadeIn bg-[url('/icons/light-icon.svg')] dark:bg-[url('/icons/dark-icon.svg')] bg-no-repeat bg-bottom-right bg-contain rotate-6 -right-10 -bottom-16"
 					id="coffee-motive"
 				></div>
 			</div>
